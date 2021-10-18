@@ -1,1 +1,5 @@
+from datetime import datetime, date, time, timedelta
+import calendar
 
+ahora = datetime.now()
+print(ahora.day)
